@@ -14,8 +14,14 @@ public class CabInvoiceGenerator {
     public InvoiceSummary totalFareCalculator(Ride[] rides) {
         double totalFare = 0;
         for (Ride ride:rides ){
-            totalFare += this.fareCalculator(ride.distance,ride.time);
+            totalFare += this.fareCalculator(ride.distance, ride.time);
         }
+        return new InvoiceSummary(rides.length, totalFare);
+    }
+
+    public void setUserSpecificInvoice(Ride[] userRides, String user) { }
+
+    public InvoiceSummary getUserInvoiceSummary(String userName) {
         return null;
     }
 }
