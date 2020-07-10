@@ -1,5 +1,5 @@
 package cabinvoice.utility;
 
-public enum UserCategory {
+public enum RideCategory {
     PREMIUM,NORMAL
 }
