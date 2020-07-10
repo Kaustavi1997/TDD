@@ -11,4 +11,11 @@ public class CabInvoiceTest {
         double fare = cabInvoiceGenerator.fareCalculator(distance, time);
         Assert.assertEquals(32, fare, 0.0);
     }
+    @Test
+    public void givenLessDistanceAndTime_ShouldReturnMinimumFare(){
+        CabInvoiceGenerator cabInvoiceGenerator = new CabInvoiceGenerator();
+        double fare = cabInvoiceGenerator.fareCalculator(0.1,1);
+        Assert.assertEquals(5, fare, 0.0);
+    }
+
 }
