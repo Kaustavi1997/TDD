@@ -1,4 +1,4 @@
-package cabinvoice.service;
+package cabinvoice.model;
 
 public class InvoiceSummary {
     private final int numOfRides;

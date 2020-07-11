@@ -1,7 +1,6 @@
 package cabinvoice.utility;
 
 public enum RideCategory {
-
     PREMIUM (15, 2, 20),
     NORMAL(10, 1, 5);
 

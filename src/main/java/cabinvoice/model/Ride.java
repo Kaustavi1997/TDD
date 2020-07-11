@@ -1,4 +1,4 @@
-package cabinvoice.service;
+package cabinvoice.model;
 
 import cabinvoice.utility.RideCategory;
 
