@@ -5,6 +5,7 @@ public class InvoiceSummary {
     private final double totalFare;
     private final double averageFare;
 
+
     public InvoiceSummary(int rides, double totalFare) {
         this.numOfRides = rides;
         this.totalFare = totalFare;
